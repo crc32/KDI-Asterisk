@@ -30,7 +30,7 @@ Download minimal iso from Centos, & burn to CD or USB.
 19. Run yum -y install nano
 20. Edit /etc/sudoers with nano, and allow wheel group to use sudo
 21. add new user, set password, add user to wheel
-22. nano /etc/selinux/config  -> change enforcing to permissive
+22. nano /etc/selinux/config  -> change enforcing to permissive (see here for why: http://www.pedro.kiefer.com.br/2014/04/selinux-freepbx)
 23. reboot
 24. login as new user
 25. sudo su
