@@ -4,6 +4,7 @@ KDI-Asterisk
 ## Setup Centos 6.6
 
 Download minimal iso from Centos, & burn to CD or USB.
+
 1. Install or upgrade existing system
 2. Test media [skip]
 3. Begin setup [Next]
@@ -26,7 +27,7 @@ Download minimal iso from Centos, & burn to CD or USB.
 16. Reboot when finished
 17. Login to new server as root
 18. run yum -y update
-19. Run yum -y install nano net-tools wget curl perl perl-CPAN
+19. Run yum -y install nano
 20. Edit /etc/sudoers with nano, and allow wheel group to use sudo
 21. add new user, set password, add user to wheel
 22. nano /etc/selinux/config  -> change enforcing to permissive
@@ -35,7 +36,7 @@ Download minimal iso from Centos, & burn to CD or USB.
 25. sudo su
 26. yum groupinstall core
 27. yum groupinstall base
-28. yum install gcc gcc-c++ lynx bison mysql-devel mysql-server php php-mysql php-pear php-mbstring tftp-server httpd make ncurses-devel libtermcap-devel sendmail sendmail-cf caching-nameserver sox newt-devel libxml2-devel libtiff-devel audiofile-devel gtk2-devel subversion kernel-devel git subversion kernel-devel php-process crontabs cronie cronie-anacron wget vim php-xml uuid-devel libtool sqlite-devel
-29. 
+28. yum install gcc gcc-c++ lynx bison mysql-devel mysql-server php php-mysql php-pear php-mbstring tftp-server httpd make ncurses-devel libtermcap-devel sendmail sendmail-cf caching-nameserver sox newt-devel libxml2-devel libtiff-devel audiofile-devel gtk2-devel subversion kernel-devel git subversion kernel-devel php-process crontabs cronie cronie-anacron wget vim php-xml uuid-devel libtool sqlite-devel net-tools curl perl perl-CPAN
+29. Continue to follow the instructions here: http://wiki.freepbx.org/display/HTGS/Installing+FreePBX+12+on+CentOS+6.5
  
 
